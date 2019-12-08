@@ -1,0 +1,49 @@
+body {
+  background-color: #092F54;
+}
+
+#header {
+  background-color: #048844;
+  background-image: url("../img/maze-bg.png");
+  background-repeat: repeat;
+  height: 80px;
+  color: yellow;
+}
+
+#bandeau {
+  background-image: url("../img/deco.png");
+  background-repeat: repeat-x;
+  background-size: 150px;
+  height: 50px;
+  width: 100%;
+  margin-top: -25px;
+}
+
+#logo {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#logo img {
+  height: 70px;
+}
+
+video {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  height: 100%;
+  width: 60%;
+  display: block;
+  border: 3px solid #E0C410;
+}
+
+.video-subtitle {
+  /* font-family: 'Bebas Neue', cursive; */
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 50;
+}
